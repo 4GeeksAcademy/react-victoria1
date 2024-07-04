@@ -7,7 +7,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 const Card = () => {
     return (
-        <div className="d-flex gap-4">
+        <div className="container-fluid">
             <div className="card" style={{ width: "18rem" }}>
                 <img src="https://loremflickr.com/400/400" className="card-img-top" alt="Rigo Baby" />
                 <div className="card-body">

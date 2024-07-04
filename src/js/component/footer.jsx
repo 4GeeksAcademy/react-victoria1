@@ -7,18 +7,15 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 const Footer = () => {
     return (
-        <div className="d-flex gap-4">
-            <div className="card" style={{ width: "18rem" }}>
-                <img src={rigoImage} className="card-img-top" alt="Rigo Baby" />
-                <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" className="btn btn-primary">Find out more!</a>
-                </div>
-            </div>
-        </div>
+    <div className="container-fluid mt-5">
+        <footer className="d-flex justify-content-center py-3 bg-dark footer-dark">
+            <div className="col-md-4 d-flex align-items-center">
+                <span className="text-muted">Your Website © 2021 Company, Inc</span>
+             </div>
+        </footer>
+    </div>
     );
-};
+}
 
 // 3) Exportar el componente
 export default Footer;
